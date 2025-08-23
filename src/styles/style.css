@@ -1,236 +1,137 @@
-@import url(global.css);
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
-.our-experts{
+@import url("./global.css");
+
+.container-advice {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 160px 198px;
     gap: 80px;
-    padding: 100px 0;
-    background-color: #FFF2F3;
-}
-.our-experts-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 10px;
-}
-.our-experts-content span{
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #96BB7C;
-}
-.our-experts-content h2{
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-    color: #252B42;
-}
-.our-experts-content p{    
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #737373;
 }
 
-/* Cards */
-.our-experts-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.our-experts-cards-img-1{
-    background-image: url(../images/card-1.svg);
-}
-.our-experts-cards-img-2{
-    background-image: url(../images/card-2.svg);
-}
-.our-experts-cards-img-3{
-    background-image: url(../images/card-3.svg);
-}
-.our-experts-cards-img-1, .our-experts-cards-img-2, .our-experts-cards-img-3{
-    width: 348px;
-    height: 300px;
-    background-size: cover;
-}
-/* Estilização dos icones dos cards */
-.card{
-    position: relative
-}
-.card span{
-    background-color: #E74040;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    padding: 0 10px;
-    border-radius: 3px;
-    color: #fff;
-    position: absolute;
-    top: 20px;
-    left: 20px;    
-}
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    top: 236px; 
-    left: 104px; /*width da div-pai =348 - div-icons=140 / 2 = 104*/
-}
-.icons a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff; 
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-/*Fim Estilização icones dos cards*/
-/*Estilização do conteúdo do card*/
-.our-experts-cards-content{
+.practice-advice {
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
     gap: 10px;
-    padding: 25px;
-    background-color: #fff;
+
 }
-.subtitle{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+
+.container-advice h6 {
+    color: var(--font--color--primary-color);
 }
-.subtitle p{
-    color: #96BB7C;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.2px;
+
+.container-advice h1 {
+    color: var(--font--color--text-color);
 }
-.classification{
+
+.container-advice>p {
+    color: var(--font--color--second-text-color);
+    width: 159px;
+}
+
+.container-helps {
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 5.5px;
-    padding: 5px;
-    border-radius: 20px;
-    background-color: #2D4059;
-}
-.classification p{
-    color: #fff;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-}
-.our-experts-cards-content h3{
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-}
-.our-experts-cards-content > p{
-    color: #737373;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    width: 280px;
-}
-.sales{
-    display: flex;
-    justify-content: start;
     gap: 10px;
 }
-.sales >h4{
-    color: #737373;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-}
-.price{
+
+.card-Designer {
+    color: var(--font-color--second-text-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 3px;
-    gap: 5px;
-}
-.original-price, .sale-price{
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-}
-.original-price{
-    color: #BDBDBD;
-}
-.sale-price{
-    color: #FFAB71;
-}
-.cta-learn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    border: 1px solid #96BB7C;
-    border-radius: 37px;
-    margin-bottom: 25px;
-}
-.cta-learn >p{
-    color: #96BB7C;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-}
-/*Estilização do conteúdo do card*/
-/*Estilização do Footer*/
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;   
+    flex-direction: column;
+    padding: 16.83px;
     gap: 30px;
+
 }
-.footer-navigation{
+
+.card-perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-Designer>.card-Designer-feedback>p {
+    width: 159px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--font--color--text-color);
+}
+
+.container-Designer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo {
+    width: 159px;
+}
+
+.container-advice {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    padding: 160px 198px;
+    gap: 80px;
+}
+
+.practice-advice {
+
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    min-width: 152px;
 
 }
-.footer-navigation h4{
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-    color: #252B42;
+
+.container-advice h6 {
+    color: var(--font--color--primary-color);
 }
-.footer-navigation a{
-    margin-top: 10px;
+
+.container-advice h1 {
+    color: var(--font--color--text-color);
+}
+
+.container-advice>p {
+    color: var(--font--color--second-text-color);
+    width: 159px;
+}
+
+.container-helps {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-Designer {
+    color: var(--font-color--second-text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 16.83px;
+    gap: 30px;
+
+}
+
+.card-perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-Designer>.card-Designer-feedback>p {
+    width: 159px;
     font-size: 14px;
-    font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #737373;
+    text-align: center;
+    color: var(--font--color--text-color);
 }
-/*Fim da Estilização do Footer*/
+
+.container-Designer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo {
+    width: 159px;
+}
