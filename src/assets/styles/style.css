@@ -8,6 +8,69 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* =============== Header ============== */
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 17px 150px 16px 136px;
+    gap: 170px; 
+}
+
+.logo {
+    max-width: 141px;
+    height: 42px;
+    
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-right: 96px;
+}
+
+.navigation a{
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    color: var(--font--color--second-text-color);
+}
+
+.navigation a:hover {
+    color: var(--font--color--primary-color);
+    
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.btn-login {
+    color: var(--font--color--primary-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    transition: 2s;
+}
+
+
+
+.btn-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font--color--light-background-color);
+    border-radius: 10px;
+    gap: 15px;
+    width: 138px;
+    height: 52px;
+    background-color: var(--font--color--primary-color);
+}
+/* ===============Fim do Header ============== */
+
+
 /* --------------Section our experts ----------------*/
 .our-experts{
     display: flex;
