@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-base);
+}
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+:root {
+        --font-family-base: "Montserrat", sans-serif;
+
+    /* Fonte size */
+        --font-size-12: 12px;
+        --font-size-14: 14px;
+        --font-size-16: 16px;
+        --font-size-20: 20px;
+        --font-size-24: 24px;
+        --font-size-40: 40px;
+        --font-size-58: 58px;
+   
+
+
+
+    /* Pesos da fonte */
+        --font-weight-thin: 100;
+        --font-weight-extra-light: 200;
+        --font-weight-light: 300;
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 700;
+        --font-weight-extra-bold: 800;
+        --font-weight-black: 900;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-base);
+}
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+:root {
+        --font-family-base: "Montserrat", sans-serif;
+
+    /* Fonte size */
+        --font-size-12: 12px;
+        --font-size-14: 14px;
+        --font-size-16: 16px;
+        --font-size-20: 20px;
+        --font-size-24: 24px;
+        --font-size-40: 40px;
+        --font-size-58: 58px;
+   
+
+    /* Pesos da fonte */
+        --font-weight-thin: 100;
+        --font-weight-extra-light: 200;
+        --font-weight-light: 300;
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 700;
+        --font-weight-extra-bold: 800;
+        --font-weight-black: 900;
+
+    /* Cores */
+    --font--color--primary-color: #96BB7C;
+    --font--color--danger-color: #E74040;
+    --font--color--dark-background-color: #2D4059;
+    --font--color--text-color: #2D4059;
+    --font--color--secondary-color-1: #FFAB71;
+    --font--color--light-background-color: #FFFFFF;
+    --font--color--light-gray-1: #FAFAFA;
+    --font--color--muted-color: #BDBDBD;
+    --font--color--light-text-gray-1: #FAFAFA;
+    --font--color--secondary: #F3CD03;
+    --font--color--faded-secondary-color-2: #FFF2F3;
+    --font--color--second-text-color: #737373;
+    --font--color--primary-text-color: #AAAAAA;
+    --font--color--light-text-color: #FFFFFF;
+    --font--color--faded-primary-color: #EFF8ED;
+    --font--color--alert-color: #E77C40;
+    --font--color--secondary-color-2: #FF7171;
+    --font--color--success-color: #2DC071;
+    --font--color--disabled-element-color: #8EC2F2;
+    --font--color--faded-secondary-color-1: #DDF4FF;
+    --font--color--success-text-color: #2DC071;
+    --font--color--hover-color: #2A7CC7; 
+    --font--color--light-gray-2: #ECECEC;
+    --font--color--secondary-text-color-1: #FFAB71;
+    --font--color--secondary-text-color-2: #FF7171;
+    --font--color--alert-text-color: #E77C40;
+    --font--color--danger-text-color: #E74040;
+    --font--color--hover-text-color: #2A7CC7;
+    --font--color--disabled-element-text-color: #8EC2F2;
+    --font--color--muted-text-color: #BDBDBD;
+    --font--color--light-text-gray-2: #ECECEC;
+}
