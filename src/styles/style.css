@@ -363,6 +363,84 @@ border-radius: 10px;
     letter-spacing: 0.2px;
 }
 /*Estilização do conteúdo do card*/
+
+/* ===============Section Popular Courses ============== */
+.hero-popular {
+    width: 1050px;
+    height: 827px;
+    margin: auto;
+}
+
+.courses-content {
+    width: 1044px;
+    height: 116px;
+    margin-top: 112px;
+    padding: 5px 0px;
+}
+
+.courses-content h1 {
+margin: 10px 204px 10px 0px;
+}
+
+.courses-content p {
+    width: 463px;
+    font-size: var(--font-size-14);
+}
+
+.profession-container {
+    display: flex;
+    width: 1050px;
+    height: 375px;
+    text-align: center;
+    margin-top: 112px;
+    gap: 30px;
+    
+    
+}
+
+.cards-profession {
+    width: 238px;
+    height: 349px;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 1px 8px 15px rgba(184, 181, 181, 0.411);
+    transition: 1s;
+}
+
+.cards-profession:hover {
+    transform: scale(1.05);
+}
+
+.cards-profession h5 {
+    margin: 30px 50px 10px 50px;
+}
+
+.cards-profession p {
+    margin: 10px 83.5px 10px 83.5px;
+}
+
+.icons-social-media {
+margin: 10px 60px 30px 60px;
+}
+.img-profession {
+    width: 238px;
+    height: 231px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.icons-social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.icons-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* ===============Fim Section Popular Courses ============== */
 /*Estilização do Footer*/
 footer{
     display: flex;
