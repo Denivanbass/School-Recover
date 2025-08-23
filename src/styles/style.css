@@ -8,67 +8,165 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
 /* =============== Header ============== */
 header {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 17px 150px 16px 136px;
-    gap: 170px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 150px 16px 136px;
+  gap: 170px;
 }
 
 .logo {
-    max-width: 141px;
-    height: 42px;
-    
+  max-width: 141px;
+  height: 42px;
 }
 
 .navigation ul {
-    display: flex;
-    justify-content: center;
-    gap: 21px;
-    margin-right: 96px;
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  margin-right: 96px;
 }
 
-.navigation a{
-    font-size: var(--font-size-14);
-    font-weight: var(--font-weight-bold);
-    color: var(--font--color--second-text-color);
+.navigation a {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  color: var(--font--color--second-text-color);
 }
 
 .navigation a:hover {
-    color: var(--font--color--primary-color);
-    
+  color: var(--font--color--primary-color);
 }
 
+/* =====Button container===== */
 .btn-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
 }
 
 .btn-login {
-    color: var(--font--color--primary-color);
-    font-size: var(--font-size-14);
-    font-weight: var(--font-weight-bold);
-    transition: 2s;
+  color: var(--font--color--primary-color);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  transition: 1s;
 }
 
-
+.btn-login:hover {
+  transform: scale(1.5);
+  border-radius: 10px;
+  color: var(--font--color--light-background-color);
+  background-color: var(--font--color--primary-color);
+  padding: 5px;
+}
 
 .btn-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font--color--light-background-color);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  border-radius: 10px;
+  gap: 15px;
+  width: 138px;
+  height: 52px;
+  background-color: var(--font--color--primary-color);
+  transition: 1s;
+}
+
+.btn-join:hover {
+  color: var(--font--color--primary-color);
+  background: linear-gradient(25deg, var(--font--color--light-background-color), var(--font--color--primary-color));
+  border: 1px solid var(--font--color--primary-color);
+}
+/* =====Fim Button container===== */
+
+/* ===============Fim do Header ============== */
+
+/* ===============Section Students container ============== */
+.hero-students {
+    max-width: 1440px;
+    height: 836px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--font--color--light-background-color);
-    border-radius: 10px;
-    gap: 15px;
-    width: 138px;
-    height: 52px;
-    background-color: var(--font--color--primary-color);
+    margin: auto;
 }
-/* ===============Fim do Header ============== */
+
+.students-content {
+    width: 494px;
+    height: 342px;
+    margin: 199px 84px 149px 167px;
+}
+
+.students-content h1 {
+    width: 494px;
+    height: 160px;
+    font-size: var(--font-size-58);
+}
+.students-content h4 {
+    width: 470px;
+    height: 60px;
+    font-size: var(--font-size-20);
+    margin-top: 35px;
+}
+
+.btn-content {
+    margin-top: 35px;
+    
+}
+.get-quate{
+  width: 195px;
+height: 52px;
+padding: 15px 40px;
+border-radius: 10px;
+ color: var(--font--color--light-background-color);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  background-color: var(--font--color--primary-color);
+}
+
+.get-quate:hover {
+    background-color: #FFFFFF;
+    color:#96BB7C ;
+    border: 1px solid #96BB7C;
+}
+
+.learn-more {
+    width: 165px;
+    height: 52px;
+    color: #96BB7C;
+    border: 1px solid #96BB7C;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+  
+}
+
+.learn-more:hover {
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    border: none;
+}
+.student-image img {
+    width: 640px;
+    height: 663px;
+    margin: 27px 54px 55px 0px;
+    transition: 3s;
+}
+
+.student-image img:hover {
+    border-radius: 280px;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+/* ===============Fim Section Students container ============== */
+
 
 
 .our-experts{
