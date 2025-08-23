@@ -7,14 +7,22 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
+/* --------------Section our experts ----------------*/
 .our-experts{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--font--color--faded-secondary-color-2);
+}
+.our-experts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     gap: 80px;
     padding: 100px 0;
-    background-color: #FFF2F3;
 }
 .our-experts-content{
     display: flex;
@@ -24,27 +32,27 @@
     gap: 10px;
 }
 .our-experts-content span{
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-14);
     line-height: 24px;
     letter-spacing: 0.2px;
-    color: #96BB7C;
+    color: var(--font--color--primary-color);
 }
 .our-experts-content h2{
-    font-weight: bold;
-    font-size: 40px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-40);
     line-height: 50px;
     letter-spacing: 0.2px;
-    color: #252B42;
+    color: var(--font--color--text-color);
 }
 .our-experts-content p{    
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 20px;
     letter-spacing: 0.2px;
-    color: #737373;
+    color: var(--font--color--second-text-color);
 }
 
-/* Cards */
+
 .our-experts-cards{
     display: flex;
     justify-content: center;
@@ -65,19 +73,19 @@
     height: 300px;
     background-size: cover;
 }
-/* Estilização dos icones dos cards */
+
 .card{
     position: relative
 }
 .card span{
-    background-color: #E74040;
-    font-size: 14px;
-    font-weight: bold;
+    background-color: var( --font--color--danger-text-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.2px;
     padding: 0 10px;
     border-radius: 3px;
-    color: #fff;
+    color: var( --font--color--light-text-color);
     position: absolute;
     top: 20px;
     left: 20px;    
@@ -95,13 +103,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff; 
+    background-color: var( --font--color--light-text-color); 
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-/*Fim Estilização icones dos cards*/
-/*Estilização do conteúdo do card*/
+
 .our-experts-cards-content{
     display: flex;
     flex-direction: column;
@@ -109,7 +116,7 @@
     align-items: start;
     gap: 10px;
     padding: 25px;
-    background-color: #fff;
+    background-color: var( --font--color--light-text-color);
 }
 .subtitle{
     display: flex;
@@ -118,9 +125,9 @@
     width: 100%;
 }
 .subtitle p{
-    color: #96BB7C;
-    font-size: 14px;
-    font-weight: bold;
+    color: var(--font--color--primary-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.2px;
 }
@@ -131,23 +138,23 @@
     gap: 5.5px;
     padding: 5px;
     border-radius: 20px;
-    background-color: #2D4059;
+    background-color: var(--font--color--dark-background-color);
 }
 .classification p{
-    color: #fff;
-    font-size: 12px;
+    color: var( --font--color--light-text-color);
+    font-size: var(--font-size-12);
     line-height: 16px;
     letter-spacing: 0.2px;
 }
 .our-experts-cards-content h3{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.1px;
 }
 .our-experts-cards-content > p{
-    color: #737373;
-    font-size: 14px;
+    color: var( --font--color--second-text-color);
+    font-size: var(--font-size-14);
     line-height: 20px;
     letter-spacing: 0.2px;
     width: 280px;
@@ -158,9 +165,9 @@
     gap: 10px;
 }
 .sales >h4{
-    color: #737373;
-    font-size: 14px;
-    font-weight: bold;
+    color: var( --font--color--second-text-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.2px;
 }
@@ -172,16 +179,16 @@
     gap: 5px;
 }
 .original-price, .sale-price{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.1px;
 }
 .original-price{
-    color: #BDBDBD;
+    color: var(--font--color--muted-color);
 }
 .sale-price{
-    color: #FFAB71;
+    color: var(--font--color--secondary-text-color-1);
 }
 .cta-learn{
     display: flex;
@@ -194,18 +201,25 @@
     margin-bottom: 25px;
 }
 .cta-learn >p{
-    color: #96BB7C;
-    font-size: 14px;
-    font-weight: bold;
+    color: var(--font--color--primary-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.2px;
 }
-/*Estilização do conteúdo do card*/
-/*Estilização do Footer*/
+/* --------------Fim Section our experts ----------------*/
+/*--------------------------- Footer----------------------*/
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
     padding: 50px 0;   
     gap: 30px;
 }
@@ -216,21 +230,56 @@ footer{
     align-items: start;
     gap: 10px;
     min-width: 152px;
-
+    max-width: 321px;
 }
 .footer-navigation h4{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: var(16px);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.1px;
-    color: #252B42;
+    color: var(--font--color--text-color);
 }
 .footer-navigation a{
     margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
     line-height: 24px;
     letter-spacing: 0.2px;
-    color: #737373;
+    color: var(--font--color--second-text-color);
 }
-/*Fim da Estilização do Footer*/
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+ .localization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-reserved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+    background-color: var(--font--color--light-gray-1);
+    gap: 439px;
+}
+.footer-reserved p{
+    color: var(--font--color--second-text-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.footer-reserved .socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21.5px;
+    padding: 0 62.5px;
+}
+/* --------------Fim do footer ----------------*/
