@@ -222,12 +222,15 @@ border-radius: 10px;
 }
 .our-experts-cards-img-1{
     background-image: url(../images/card-1.svg);
+    border-radius: 10px 10px 0px 0px;
 }
 .our-experts-cards-img-2{
     background-image: url(../images/card-2.svg);
+    border-radius: 10px 10px 0px 0px;
 }
 .our-experts-cards-img-3{
     background-image: url(../images/card-3.svg);
+    border-radius: 10px 10px 0px 0px;
 }
 .our-experts-cards-img-1, .our-experts-cards-img-2, .our-experts-cards-img-3{
     width: 348px;
@@ -237,6 +240,7 @@ border-radius: 10px;
 
 .card{
     position: relative
+
 }
 .card span{
     background-color: var( --font--color--danger-text-color);
