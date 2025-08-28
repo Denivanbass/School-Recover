@@ -85,9 +85,7 @@ header {
 .btn-join:hover {
     color: var(--font--color--primary-color);
     background-color: var(--font--color--dark-background-color);
-    border: 1px solid var(--font--color--primary-color);
-    /* filter: invert(1); */
-
+    border: none;
 }
 
 /* =====Fim Button container===== */
@@ -158,13 +156,13 @@ header {
 }
 
 .learn-more:hover {
-    background-color: #96BB7C;
-    color: #FFFFFF;
+    color: var(--font--color--primary-color);
+    background-color: var(--font--color--dark-background-color);
     border: none;
 }
 
 .student-image img {
-    max-width: 80%;
+    max-width: 70%;
     height: 663px;
     margin: 27px 54px 55px 0px;
     transition: 3s;
