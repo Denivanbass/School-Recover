@@ -200,6 +200,10 @@ header {
     font-size: var(--font-size-14);
 }
 
+.team-active {
+    color: var(--font--color--primary-color);
+}
+
 .profession-container {
     display: flex;
     width: 1050px;
