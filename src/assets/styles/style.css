@@ -15,6 +15,7 @@ header {
     align-items: center;
     padding: 17px 150px 16px 136px;
     gap: 170px;
+    background-color: var(--font--color--light-gray-1);
 }
 
 .logo {
@@ -92,18 +93,20 @@ header {
 
 /* ===============Section Students container ============== */
 .hero-students {
+
     max-width: 1440px;
-    height: 836px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 85px;
     margin: auto;
+    background-color: var(--font--color--light-gray-1);
 }
 
 .students-content {
     width: 494px;
     height: 342px;
-    margin: 199px 84px 149px 167px;
+    /* margin: 199px 84px 149px 167px; */
 }
 
 .students-content h1 {
@@ -160,10 +163,9 @@ header {
 }
 
 .student-image img {
-    max-width: 70%;
-    height: 663px;
-    margin: 27px 54px 55px 0px;
+    width: 400px;   
     transition: 3s;
+    padding: 40px 0;
 }
 
 .student-image img:hover {
@@ -173,6 +175,117 @@ header {
 }
 
 /* ===============Fim Section Students container ============== */
+
+.btn-primary {
+  background-color: var(--font--color--primary-color);
+  color: var(--font--color--light-text-color);
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--font--color--hover-color);
+}
+
+/* ===================== */
+/* EVERY CLIENT MATTERS  */
+/* ===================== */
+.every-client-matters {
+  padding: 1rem 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cards-container .card img {
+    margin-bottom: 1rem;
+    width: 80px;
+}
+
+/* ===================== */
+/* OUR CLIENTS           */
+/* ===================== */
+.our-clients {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.logo-clients {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.logo-clients h2 {
+  font-size: var(--font-size-24);
+  color: var(--font--color--primary-color);
+}
+
+.logo-clients p {
+  margin-top: 0.3rem;
+}
+
+/* ===================== */
+/* PIXELGRADE SECTION    */
+/* ===================== */
+.pixelgrade {
+  padding: 5rem 0;
+}
+
+.pixelgrade-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.pixelgrade-content .text p {
+  margin: 1rem 0 2rem 0;
+  max-width: 500px;
+}
+
+.pixelgrade-content img {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Botão estilo link - Pixelgrade */
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--font--color--primary-color);
+  text-decoration: none;
+  font-size: var(--font-size-16);
+  transition: color 0.3s ease;
+}
+
+.btn-link .arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.btn-link:hover {
+  color: var(--font--color--hover-color);
+}
+
+.btn-link:hover .arrow {
+  transform: translateX(5px);
+}
+
+
 
 
 /* ===============Section Popular Courses ============== */
@@ -599,6 +712,53 @@ header {
 
 .paragrafo {
     width: 159px;
+}
+
+/* NEWSLETTER            */
+/* ===================== */
+.newsletter {
+  padding: 5rem 0;
+  text-align: center;
+  color: var(--font--color--text-color);
+}
+
+.newsletter h6 {
+  font-size: var(--font-size-12);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 0.5rem;
+  color: var(--font--color--primary-color);
+}
+
+.newsletter h2 {
+  font-size: var(--font-size-24);
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  margin-bottom: 2rem;
+  color: var(--font--color--second-text-color);
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border-radius: 30px 0 0 30px;
+  border: none;
+  outline: none;
+  font-size: var(--font-size-16);
+}
+
+.newsletter-form button {
+  border-radius: 0 30px 30px 0;
 }
 /*--------------------------- Footer----------------------*/
 footer{
