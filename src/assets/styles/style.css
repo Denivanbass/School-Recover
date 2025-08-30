@@ -8,81 +8,84 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
 /* =============== Header ============== */
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 17px 150px 16px 136px;
-  gap: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 150px 16px 136px;
+    gap: 170px;
 }
 
 .logo {
-  max-width: 141px;
-  height: 42px;
+    max-width: 141px;
+    height: 42px;
 }
 
 .navigation ul {
-  display: flex;
-  justify-content: center;
-  gap: 21px;
-  margin-right: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-right: 96px;
 }
 
 .navigation a {
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-bold);
-  color: var(--font--color--second-text-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    color: var(--font--color--second-text-color);
 }
 
 .navigation a:hover {
-  color: var(--font--color--primary-color);
+    color: var(--font--color--primary-color);
 }
 
 /* =====Button container===== */
 .btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
 }
 
 .btn-login {
-  color: var(--font--color--primary-color);
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-bold);
-  transition: 1s;
+    border: 1px solid var(--font--color--primary-color);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--font--color--primary-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    transition: 1.5s;
 }
 
 .btn-login:hover {
-  transform: scale(1.5);
-  border-radius: 10px;
-  color: var(--font--color--light-background-color);
-  background-color: var(--font--color--primary-color);
-  padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: var(--font--color--light-background-color);
+    background-color: var(--font--color--dark-background-color);
+
 }
 
 .btn-join {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--font--color--light-background-color);
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-bold);
-  border-radius: 10px;
-  gap: 15px;
-  width: 138px;
-  height: 52px;
-  background-color: var(--font--color--primary-color);
-  transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font--color--light-background-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    border-radius: 10px;
+    gap: 15px;
+    width: 138px;
+    height: 52px;
+    background-color: var(--font--color--primary-color);
+    transition: 1s;
 }
 
 .btn-join:hover {
-  color: var(--font--color--primary-color);
-  background: linear-gradient(25deg, var(--font--color--light-background-color), var(--font--color--primary-color));
-  border: 1px solid var(--font--color--primary-color);
+    color: var(--font--color--primary-color);
+    background-color: var(--font--color--dark-background-color);
+    border: none;
 }
+
 /* =====Fim Button container===== */
 
 /* ===============Fim do Header ============== */
@@ -108,6 +111,7 @@ header {
     height: 160px;
     font-size: var(--font-size-58);
 }
+
 .students-content h4 {
     width: 470px;
     height: 60px;
@@ -117,22 +121,23 @@ header {
 
 .btn-content {
     margin-top: 35px;
-    
+
 }
-.get-quate{
-  width: 195px;
-height: 52px;
-padding: 15px 40px;
-border-radius: 10px;
- color: var(--font--color--light-background-color);
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-bold);
-  background-color: var(--font--color--primary-color);
+
+.get-quate {
+    width: 195px;
+    height: 52px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: var(--font--color--light-background-color);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--font--color--primary-color);
 }
 
 .get-quate:hover {
     background-color: #FFFFFF;
-    color:#96BB7C ;
+    color: #96BB7C;
     border: 1px solid #96BB7C;
 }
 
@@ -145,16 +150,17 @@ border-radius: 10px;
     border-radius: 10px;
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-bold);
-  
+
 }
 
 .learn-more:hover {
-    background-color: #96BB7C;
-    color: #FFFFFF;
+    color: var(--font--color--primary-color);
+    background-color: var(--font--color--dark-background-color);
     border: none;
 }
+
 .student-image img {
-    width: 640px;
+    max-width: 70%;
     height: 663px;
     margin: 27px 54px 55px 0px;
     transition: 3s;
@@ -165,8 +171,93 @@ border-radius: 10px;
     transform: rotate(360deg);
     cursor: pointer;
 }
+
 /* ===============Fim Section Students container ============== */
 
+
+/* ===============Section Popular Courses ============== */
+.hero-popular {
+    width: 1050px;
+    height: 827px;
+    margin: auto;
+}
+
+.courses-content {
+    width: 1044px;
+    height: 116px;
+    margin-top: 112px;
+    padding: 5px 0px;
+}
+
+.courses-content h1 {
+    margin: 10px 204px 10px 0px;
+}
+
+.courses-content p {
+    width: 463px;
+    font-size: var(--font-size-14);
+}
+
+.team-active {
+    color: var(--font--color--primary-color);
+}
+
+.profession-container {
+    display: flex;
+    width: 1050px;
+    height: 375px;
+    text-align: center;
+    margin-top: 112px;
+    gap: 30px;
+
+
+}
+
+.cards-profession {
+    width: 238px;
+    height: 349px;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 1px 8px 15px rgba(184, 181, 181, 0.411);
+    transition: 1s;
+}
+
+.cards-profession:hover {
+    transform: scale(1.05);
+}
+
+.cards-profession h5 {
+    margin: 30px 50px 10px 50px;
+}
+
+.cards-profession p {
+    margin: 10px 83.5px 10px 83.5px;
+}
+
+.icons-social-media {
+    margin: 10px 60px 30px 60px;
+}
+
+.img-profession {
+    width: 238px;
+    height: 231px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.icons-social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.icons-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ===============Fim Section Popular Courses ============== */
 
 
 /* --------------Section our experts ----------------*/
