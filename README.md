@@ -110,11 +110,11 @@ Cristiano</a>
  <br />
  
 [![Gmail Badge](https://img.shields.io/badge/-ygormendesleite86@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ygormendesleite86@gmail.com)](mailto:ygormendesleite86@gmail.com)
+<br />
 <a href="https://www.linkedin.com/in/ygor-leite-02920128b/">
-Denivan</a>
- <br />
+Denivan</a> 
  
-[![Gmail Badge](https://img.shields.io/badge/-ygormendesleite86@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ygormendesleite86@gmail.com)](mailto:ygormendesleite86@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-denivanbass@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:denivanbass@gmail.com)](mailto:denivanbass@gmail.com)
 
 <a href="https://www.linkedin.com/in/ygor-leite-02920128b/">
 Giovanna</a>
