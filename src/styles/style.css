@@ -130,6 +130,7 @@ header {
     width: 195px;
     height: 52px;
     padding: 15px 40px;
+    border: 1px solid #96bb7c;
     border-radius: 10px;
     color: var(--font--color--light-background-color);
     font-size: var(--font-size-14);
