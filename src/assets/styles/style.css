@@ -206,6 +206,22 @@ header {
   padding: 50px 0;
 }
 
+.cards-container .card {
+  background: #fff;
+  border: 1px solid #e0e0e0;  /* borda leve */
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* efeito clicável */
+}
+
+.cards-container .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-color: var(--font--color--primary-color);
+}
+
 .cards-container .card img {
     margin-bottom: 1rem;
     width: 80px;
