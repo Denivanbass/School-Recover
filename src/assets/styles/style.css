@@ -464,6 +464,142 @@ header {
     letter-spacing: 0.2px;
 }
 /* --------------Fim Section our experts ----------------*/
+
+.container-advice {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 198px;
+    gap: 80px;
+}
+
+.practice-advice {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container-advice h6 {
+    color: var(--font--color--primary-color);
+}
+
+.container-advice h1 {
+    color: var(--font--color--text-color);
+}
+
+.container-advice>p {
+    color: var(--font--color--second-text-color);
+    width: 159px;
+}
+
+.container-helps {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-Designer {
+    color: var(--font-color--second-text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 16.83px;
+    gap: 30px;
+
+}
+
+.card-perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-Designer>.card-Designer-feedback>p {
+    width: 159px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--font--color--text-color);
+}
+
+.container-Designer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo {
+    width: 159px;
+}
+
+.container-advice {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 198px;
+    gap: 80px;
+}
+
+.practice-advice {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container-advice h6 {
+    color: var(--font--color--primary-color);
+}
+
+.container-advice h1 {
+    color: var(--font--color--text-color);
+}
+
+.container-advice>p {
+    color: var(--font--color--second-text-color);
+    width: 159px;
+}
+
+.container-helps {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-Designer {
+    color: var(--font-color--second-text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 16.83px;
+    gap: 30px;
+
+}
+
+.card-perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-Designer>.card-Designer-feedback>p {
+    width: 159px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--font--color--text-color);
+}
+
+.container-Designer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo {
+    width: 159px;
+}
 /*--------------------------- Footer----------------------*/
 footer{
     display: flex;
