@@ -258,9 +258,9 @@ header {
 }
 
 .pixelgrade-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 114px;
   align-items: center;
 }
 
