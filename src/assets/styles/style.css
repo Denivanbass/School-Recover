@@ -1,16 +1,17 @@
-/* ===================== */
-/* RESET E CONFIG GERAL  */
-/* ===================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url(global.css);
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  color: #252b42;
-  background-color: #fff;
+  font-family: var(--font-family-base);
+  color: var(--font--color--text-color);
+  background-color: var(--font--color--light-background-color);
   line-height: 1.6;
 }
 
@@ -21,38 +22,38 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-bold);
   margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-semibold);
   margin-bottom: 0.5rem;
 }
 
 p {
-  font-size: 1rem;
-  color: #737373;
+  font-size: var(--font-size-16);
+  color: var(--font--color--second-text-color);
 }
 
 /* ===================== */
 /* BOTÕES                */
 /* ===================== */
 .btn-primary {
-  background-color: #96BB7C;
-  color: #fff;
+  background-color: var(--font--color--primary-color);
+  color: var(--font--color--light-text-color);
   border: none;
   padding: 0.8rem 1.8rem;
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .btn-primary:hover {
-  background-color: #96BB7C;
+  background-color: var(--font--color--hover-color);
 }
 
 /* ===================== */
@@ -60,7 +61,7 @@ p {
 /* ===================== */
 .every-client-matters {
   padding: 4rem 0;
-  background-color: #fafafa;
+  background-color: var(--font--color--light-gray-1);
 }
 
 .cards-container {
@@ -79,7 +80,7 @@ p {
 /* OUR CLIENTS           */
 /* ===================== */
 .our-clients {
-  background-color: #fff;
+  background-color: var(--font--color--light-background-color);
   padding: 3rem 0;
   text-align: center;
 }
@@ -91,8 +92,8 @@ p {
 }
 
 .logo-clients h2 {
-  font-size: 2rem;
-  color: #96BB7C;
+  font-size: var(--font-size-24);
+  color: var(--font--color--primary-color);
 }
 
 .logo-clients p {
@@ -103,7 +104,7 @@ p {
 /* PIXELGRADE SECTION    */
 /* ===================== */
 .pixelgrade {
-  background-color: #fafafa;
+  background-color: var(--font--color--light-gray-1);
   padding: 5rem 0;
 }
 
@@ -130,11 +131,11 @@ p {
 .btn-link {
   display: inline-flex;
   align-items: center;
-  gap: 8px; /* espaço entre o texto e a seta */
-  font-weight: 600;
-  color: #96BB7C;
+  gap: 8px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--font--color--primary-color);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: var(--font-size-16);
   transition: color 0.3s ease;
 }
 
@@ -144,13 +145,12 @@ p {
 }
 
 .btn-link:hover {
-  color: #6fa65b; /* tom mais escuro no hover */
+  color: var(--font--color--hover-color);
 }
 
 .btn-link:hover .arrow {
-  transform: translateX(5px); /* anima a seta para a direita */
+  transform: translateX(5px);
 }
-
 
 /* ===================== */
 /* NEWSLETTER            */
@@ -158,26 +158,26 @@ p {
 .newsletter {
   padding: 5rem 0;
   text-align: center;
-  color: #252B42;
+  color: var(--font--color--text-color);
 }
 
 .newsletter h6 {
-  font-size: 0.9rem;
+  font-size: var(--font-size-12);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
   margin-bottom: 0.5rem;
-  color: #96BB7C;
+  color: var(--font--color--primary-color);
 }
 
 .newsletter h2 {
-  font-size: 2rem;
+  font-size: var(--font-size-24);
   margin-bottom: 1rem;
 }
 
 .newsletter p {
   margin-bottom: 2rem;
-  color: #737373;
+  color: var(--font--color--second-text-color);
 }
 
 .newsletter-form {
@@ -193,7 +193,7 @@ p {
   border-radius: 30px 0 0 30px;
   border: none;
   outline: none;
-  font-size: 1rem;
+  font-size: var(--font-size-16);
 }
 
 .newsletter-form button {
